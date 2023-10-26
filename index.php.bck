@@ -1,0 +1,240 @@
+<?php
+$lingua=$_GET['lingua'];
+if($lingua='BG'){
+header('location:index_bg.php');}
+?>
+    <!DOCTYPE html>
+    <html lang="it">
+
+    <head>
+        <title>Veronika Krasteva</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="6mystylesheet.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+        <link rel="icon" href="https://i.imgur.com/IlOgCms.png/favicon.png">
+        <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="https://i.imgur.com/5ZkaAgc.jpg" width="30" height="30" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Musica
+  </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=KHAVxP2cpVM" target="_blank">Kansas "Carry On My Wayward Son" (Supernatural) - Cello Cover</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=1SgoPlxumI4" target="_blank">Dunavsko Horo</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=h03r0XwgHRg" target="_blank">Cecilia Krull "My Life Is Going On" (La Casa De Papel) - 3 Cellos</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=-hZe90DQiok" target="_blank">Drunken Sailor</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=RKfP-FWMBXI" target="_blank">Astronomia "Coffin Dance"</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=eIuL5gUvizk" target="_blank">Silent Hill Shattered Memories "Acceptance"</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=dSjgkZsuXl0" target="_blank">Maria Neikova "Varviat li dvama"</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=gXqhIDmRii0" target="_blank">One Piece "Luffy's Fierce Attack" cello and piano</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=JDLjgZp4Q8Q" target="_blank">One Piece "Luffy's Fierce Attack" 3 cellos</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=D8bacv7PJzU" target="_blank">Pink Panther Theme Song (cello and piano</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=7QFldXG1ric" target="_blank">Gabriel Fauré "Apres un Reve"</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=5eMYQG6vQSQ" target="_blank">Kansas "Dust in the Wind" (flute, guitar, cello)</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=QJCGk9TCjNA" target="_blank">Ilia Draganov "Elegia"</a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=A9Kz4IaIGaM" target="_blank">Dall'Abaco "Capriccio n.1"</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://www.youtube.com/channel/UClPNgmg0EqaH7zUVQMgZzqw">Il mio canale Youtube</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="3servizi.php">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="4chisono.php">Chi sono</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="5contattami.php">Contattami</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Lingua	  
+</a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="index.php?lingua=BG"> <span class="flag-icon flag-icon-bg"></span>Bulgaro</a>
+                                <a class="dropdown-item" href="#it"><span class="flag-icon flag-icon-it"> </span>Italiano</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <div class="header">
+                <div class="row row2">
+                    <div class="col-md-12">
+                        <h1>Veronika Krasteva</h1>
+                        <p>Musicoterapeuta e Violoncellista</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button " class="btn btn-dark "><a href="4chisono.php" target="_blank "> Chi sono </a></button>
+                    </div>
+                </div>
+
+
+                <div class="row row2">
+                    <div class="col-md-8 col-xs-12">
+                        <button type="button " class="btn btn-dark "><a href="5contattami.php" target="_blank "> Contattami </a></button>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <p>
+                            <a href="https://www.facebook.com/profile.php?id=100007002945824 " target="_blank " class="fb fa-facebook "></a>
+                            <a href="https://twitter.com/VeronikaKrastev " target="_blank " class="fb fa-twitter "></a>
+                            <a href="https://www.instagram.com/veronika_krasteva " target="_blank " class="fb fa-instagram "></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <h1>LEZIONI ONLINE</h1>
+                    <p>Sono disponibile anche <strong>online</strong> per <strong>lezioni di violoncello e teoria musicale</strong>. Faccio anche <strong>incontri di musicoterapia online</strong></p>
+                    <button type="button " class="btn btn-outline-danger "><a href="5contattami.php"> CONTATTAMI </a></button>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <img class="img imglez" src="https://scontent.fqpa1-1.fna.fbcdn.net/v/t1.0-9/54228752_2054854444634646_8429050524455665664_o.jpg?_nc_cat=105&ccb=3&_nc_sid=730e14&_nc_ohc=9NbO_un801kAX_YIK_V&_nc_ht=scontent.fqpa1-1.fna&oh=a7d85bdf304263200ee7e0dd53dcf811&oe=604C76B0">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <img class="img imgmusic" src="https://i.imgur.com/3ZNYCc7.jpg">
+
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h1>Musica</h1>
+                    <p>Nel mio canale <b>Youtube</b> puoi trovare i tuoi preferitti pezzi e canzoni di diversi generi – <b> pop, rock, musica da film, Tv e anime. </b>Acceto richieste, domande, sugerimenti.</p>
+                    <button type="button " class="btn btn-outline-danger "><a href="https://www.youtube.com/channel/UClPNgmg0EqaH7zUVQMgZzqw" target="_blank"> Canale Youtube</a></button>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <h1>MUSICOTERAPIA</h1>
+                    <p>Percorsi di <b>cura e cambiamento</b> atraverso il linguaggio sonoro. Aiutando le Persone ad esprimere <b>emozioni</b>, a <b>stabilire relazioni care</b>, ad armonizzare il proprio <b>equilibrio psicofisico</b>.</p>
+                    <button type="button " class="btn btn-outline-danger "><a href="5contattami.php">CONTATTAMI </a></button>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <img class="img imgmt" src="https://i.imgur.com/TRpBsd1.jpg">
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 col-xs-12 text-center">
+                    <h1>SERVIZI</h1>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h2>Musicoterapia</h2>
+                    <h4>Bambini</h4>
+                    <p>Apprendere, relazionarsi meglio e divertirsi con la musica.</p>
+                    <h4>Anziani</h4>
+                    <p>Stimolare la memoria, promuovere il movimento fisico e arricchire la sfera affettiva atraverso il canto, la danza e l’ascolto musicale.</p>
+                    <h4>BES (DSA, ADHD, Autismo, ulteriori disabilità)</h4>
+                    <p>Per il recupero e il mantenimento delle potenzialità psico-fisiche.</p>
+                    <h4>Adulti</h4>
+                    <p>Promuovere il benessere psicologico al lavoro e nella vita quotidiana.</p>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h2>Musica</h2>
+                    <h4>Lezioni di violoncello</h4>
+                    <p>Lezioni private di VIOLONCELLO per ragazzi, adulti e bambini con qualsiasi livello di preparazione musicale.</p>
+                    <h4>Lezioni di teoria musicale e solfeggio</h4>
+                    <p>Preparazione all’esame di solfeggio previsto nei conservatori.</p>
+                    <h4>Musica per matrimoni ed eventi</h4>
+                    <p>Servizi musicali e intrattenimento per matrimoni, cerimonie e varie eventi.</p>
+                </div>
+            </div>
+
+
+
+
+            <footer>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <h5> Veronika Krasteva - Musicoterapeuta e Violoncellista </h5>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5> Seguimi:</h5>
+                        <p>
+                            <a href="https://www.facebook.com/profile.php?id=100007002945824 " target="_blank " class="fa fa-facebook "></a>
+                            <a href="https://twitter.com/VeronikaKrastev " target="_blank " class="fa fa-twitter "></a>
+                            <a href="https://www.instagram.com/veronika_krasteva " target="_blank " class="fa fa-instagram "></a>
+                        </p>
+                        <p><button type="button " class="btn btn-outline-danger "><a href="https://www.youtube.com/channel/UClPNgmg0EqaH7zUVQMgZzqw " target="_blank "> Subscribe </a><i class="fa fa-youtube-play "></i></button>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p><i class="fb fa-envelope">veronika_krasteva95@abv.bg</i></p>
+                        <p><i class="fb fa-phone">+39 328 4757116</i> </p>
+                        <p><i class="fb fa-whatsapp">+39 328 4757116</i> </p>
+                        <p><i class="fb fa-skype">veronika.krasteva95</i></p>
+
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </body>
+
+    </html>
